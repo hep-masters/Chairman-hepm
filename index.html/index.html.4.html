@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubicond</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            /* Smooth scrolling */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #004080;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            background: white;
+            padding: 15px;
+            margin: 80px 10px 30px 10px;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #004080;
+            padding: 12px 0;
+            z-index: 1000;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        header {
+            margin-top: 60px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        p,
+        ul li {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body> <!-- Menu fixe -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#filieres">Filières</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#videos">Vidéos</a></li>
+        </ul>
+    </nav> <!-- Accueil -->
+    <header id="accueil"> <img src="logo.png" alt="Logo Rubicond" style="max-width:150px; margin-bottom:15px;">
+        <h1>Rubicond Logo fusionné</h1>
+    </header> <!-- Étape 1 -->
+    <section>
+        <h2>1- Préparation</h2>
+        <ul>
+            <li>Image optimisée</li>
+            <li>Logo prêt</li>
+        </ul>
+    </section> <!-- Étape 2 -->
+    <section>
+        <h2>2- Avancement</h2>
+        <ul>
+            <li>Dossier organisé</li>
+            <li>Liens vérifiés</li>
+        </ul>
+    </section> <!-- Étape 3 -->
+    <section>
+        <h2>3- Célébration</h2>
+        <ul>
+            <li>Tout validé</li>
+        </ul>
+    </section> <!-- Filières -->
+    <section id="filieres">
+        <h2>Nos Filières d’Enseignement</h2>
+        <ul>
+            <li>Management Stratégique <em></em></li>
+            <li>Administration et Economie Minière</em></li>
+            <li>Economie des Transports </em></li>
+            <li>Développement web, réseaux et bases de données</em></li>
+        </ul>Là où l’on pensait “cours” ou “exercice”,
+nous construisons des constellations,
+et chaque étudiant devient une étoile dans la grande carte du futur.
+
+
+    </section> <!-- Commentaires -->
+    <section>
+        <h3>Commentaires</h3>
+        <p> Chaque filière est conçue pour répondre aux besoins actuels du marché et préparer les apprenants à des
+            carrières durables et innovantes. La Magie de l’Action
+« Ne sous-estime jamais le pouvoir d’un geste, d’un projet, d’une idée.
+Une seule étincelle peut illuminer tout un univers.
+Ose, crée, transmets. »
+</p>
+    </section> <!-- Galerie Photos -->
+    <section id="photos">
+        <h2>GALERIE PHOTO </h2>
+        <div class="gallery">  a<img src="pic1.jpg"lt="Première photo"> <img src="pic2.png" alt="Deuxième photo"> <img
+                src="pic3.jpg" alt="Troisième photo"> <img src="pic4.png" alt="Quatrième photo"><img src="pic5.png" alt="Cinquième photo"><img src="pic6.png" alt="Sixième photo"><img src="pic7.png" alt="Septième photo"><img src="pic8.png" alt="Huitième photo"><img src="pic9.png" alt="Neuvième photo"><img src="pic10.png" alt="Dixième photo"><img src="pic11.png" alt="Onzième photo"><img src="pic12.png" alt="Douzième photo"><img src="pic13.png" alt="Treizième photo"><img src="pic14.png" alt="Quatorzième photo"><img src="pic15.png" alt="Quinzième photo"><img src="pic16.png" alt="Seizième photo"></div>
+    </section> <!-- Vidéos -->
+    <section id="videos">
+        <h2>GALERIE VIDEO</h2>
+        <div class="video-container"> <video controls>
+                <source src="video1.mp4" type="video/mp4"> Votre navigateur ne supporte pas la lecture de vidéos.
+            </video> <video controls>
+                <source src="video2.mp4" type="video/mp4"> Votre navigateur ne supporte pas la lecture de vidéos.
+            </video> </div>
+    </section>
+</body>
+
+</html>
